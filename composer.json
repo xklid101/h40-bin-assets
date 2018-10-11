@@ -4,10 +4,10 @@
 	"type": "library",
 	"license": ["MIT"],
 	"authors": [
-        {
-            "name": "xklid101"
-        }
-    ],
+		{
+			"name": "xklid101"
+		}
+	],
 	"require": {
 		"php": ">= 7.2"
 	},
