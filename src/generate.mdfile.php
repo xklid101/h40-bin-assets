@@ -36,7 +36,8 @@ $defaults = [
                 "www/node_modules", "www/package.json", "www/package-lock.json",
                 ":REGEXP:([^/]+/)*robots\.txt", ":REGEXP:([^/]+/)*\.htaccess",
                 ":REGEXP:([^/]+/)*[^/]+\.md", ":REGEXP:([^/]+/)*[^/]+\.neon",
-                ":REGEXP:([^/]+/)*temp", ":REGEXP:([^/]+/)*tests/([^/]+/)*output"],
+                ":REGEXP:([^/]+/)*temp", ":REGEXP:([^/]+/)*log",
+                ":REGEXP:([^/]+/)*tests/([^/]+/)*output"],
 ];
 $opts = getopt('', [
     'namemd:',
